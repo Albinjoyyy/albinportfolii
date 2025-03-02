@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALBIN JOY</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/07dc43d863.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI UX Designer</p>
+            <h1>Hi, I'm <span>Albin</span><br> Joy from Kerala</h1>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="albin.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Albin Joy, I am a dedicated web developer and student. I am passionate about building dynamic and user-friendly websites.
+                    While pursuing my studies, I continue to enhance my skills in front-end and back-end development, mastering
+                    technologies like HTML, CSS, JavaScript, and modern frameworks.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                    <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                        <li><span>Web Development</span><br>Building web applications</li>
+                        <li><span>App Development</span><br>Building Android & iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - current</span><br>UI/UX Design training at Kristu Jayanti College</li>
+                        <li><span>2022 - 2024</span><br>Online training</li>
+                        <li><span>2020 - 2022</span><br>Self-study</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024 - 2027</span><br>BCA from Kristu Jayanti College</li>
+                        <li><span>2022 - 2024</span><br>11th to 12th from St. Mary's HSS Edoor</li>
+                        <li><span>2019 - 2022</span><br>8th to 10th from St. Joseph HSS Kunnoth</li>
+                        <li><span>2012 - 2019</span><br>1st to 7th from CMI Christ School Iritty</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------services-------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web designer</h2>
+                <p>Web designing is the art of creating beautiful, functional spaces on the internet where creativity meets usability to make digital experiences unforgettable.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX designer</h2>
+                <p>UI/UX design is the bridge between technology and human experience, turning complex ideas into seamless, intuitive journeys that users love to navigate.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App designer</h2>
+                <p>App designing is the blend of innovation and simplicity, crafting digital experiences that fit perfectly in the palm of your hand while solving real-world problems.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="6132082571694162111.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Feel the music</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="6132082571694162112.jpg">
+                <div class="layer">
+                    <h3>Online App</h3>
+                    <p>Do online shopping in this app</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="6132082571694162113.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>My first work</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>albinjoy907@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 7306394018</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/albin_olickal/?utm_source=ig_web_button_share_sheet"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/albin-joy-484740321"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100041057612646"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="Albin joy CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Albin Joy. with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname, event) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
